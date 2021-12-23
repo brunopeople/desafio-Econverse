@@ -41,6 +41,36 @@ Projeto Desenvolvido pelo Framework Javascript React.js e com pré-processador S
 
 # Como Rodar o Projeto? 
 
+<p>Ao ver o repositório do Projeto é possível baixa-lo através do botão download e projeto virá empacoctado com zip ou winrar se você tiver qualquer desta aplicações no seu Sistema Operacional.</p> 
+
+![Capturar8](https://user-images.githubusercontent.com/24817323/147277314-9c85f82c-0a94-4c98-8d49-52159586f295.PNG)
+
+
+Ou se quiser fazer através do git basta apenas ter o Git Bash no seu S.O, chamar o terminal dele e digitar o comando
+
+#### git clone [url do projeto] 
+
+Após isso chamar o terminal do Node.js ir no diretório onde se encontra o projeto e digitar o comando 
+
+### npm start 
+
+Ele irá baixar as depedências do projeto.
+
+##Instalando o Node-sass
+
+Para que o módulo do node-sass tenha efeito na é preciso baixar este módulo para que o layout seja compilado, então no terminal do node.js faça a instalação com o seguinte comando
+
+### npm install node-sass
+
+ele irá instalar node-sass no projeto, se ainda o dê algum erro digite o seguinte comando para fazer o rebuild
+
+### npm rebuild node-sass 
+
+
+# Link para do Deploy do Projeto no Netlifly 
+https://61c4b4ad5caa39113e45c0db--wizardly-perlman-cd3104.netlify.app/
+
+
 
 
 
