@@ -1,0 +1,33 @@
+@import '../../../../variables.scss';
+
+.wrapperBottomHeader {
+  background-color: $primary-color;
+  color: $secondary-color;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-inline: 132px;
+  gap: 91px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  margin-left: 75px;
+
+  span {
+    cursor: pointer;
+  }
+
+  .selectionMenuTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.39px;
+    cursor: pointer;
+  }
+}

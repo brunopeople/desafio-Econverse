@@ -1,0 +1,33 @@
+@import '../../../variables.scss';
+
+.aboutUs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 33px;
+  margin-top: 131px;
+  justify-content: center;
+  align-items: center;
+
+  .aboutUsTitle, .aboutUsContent {
+    color: $secondary-color;
+    letter-spacing: 0em;
+    font-style: normal;
+  }
+
+  .aboutUsTitle {
+    width: 146px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+  }
+
+  .aboutUsContent {
+    width: 901px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+  }
+}
