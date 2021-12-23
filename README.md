@@ -1,33 +1,49 @@
-### Home Ninja Som 
 
-### Como fazer um clone do projeto:
+# Projeto-Desafio-Econverse
 
-**1. Clique no ícone mostrado abaixo, na pasta principal do projeto e baixe a pasta do projeto no melhor formato para você**
- - O projeto pode ser baixado em zip ou através do comando "git clone + 'o endereço https do projeto'" no terminal da sua máquina (para isso, certifique-se de ter instalado o git).
-
-![Screenshot 1](public/screenshots/screenshot_1.png)
-------------
-
-**2.  Após o download, abra a pasta raíz do projeto**
-
-![Screenshot 2](public/screenshots/screenshot_2.png)
-------------
-
-**3. Em seu terminal, na pasta raíz do projeto, digite o comando "npm install" ou "yarn install" (de acordo com o gerenciador de pacotes que tiver instalado) e aguarde a instalação dos pacotes necessários**
-
-![Screenshot 3](public/screenshots/screenshot_3.png)
-
-![Screenshot 3.1](public/screenshots/screenshot_3.1.png)
-------------
+Projeto Desenvolvido pelo Framework Javascript React.js e com pré-processador SASS e JSON para consumo da api para estilização para a folha de estilo. Este projeto consiste numa página web de uma loja online de instrumentos musicais. 
 
 
-**4. Ao final da instalação de todos os pacotes necessários, dê o comando "npm start" ou "yarn start" (de acordo com o gerenciador de pacotes que tiver instalado) no terminal de seu editor e aguarde a finalização da criação do servidor**
-- Deve ser aberta uma aba em seu navegador com o projeto em funcionamento. Caso não ocorra e essa mesma mensagem abaixo aparecer, você poderá acessar a página do projeto digitando o endereço presente no campo "Local" desta tela em seu navegador.
+## Prints do Projeto
 
-![Screenshot 4](public/screenshots/screenshot_4.png)
+### Cabeçalho 
 
-![Screenshot 4.1](public/screenshots/screenshot_4.1.png)
-------------
+![Capturar1](https://user-images.githubusercontent.com/24817323/147275766-d3c8bb80-0396-43af-8ea0-853a25f9cb4f.PNG)
 
-**5. A tela principal deve ser parecida com essa (espero que gostem!! :)). Obrigado!!**
-![Screenshot 5](public/screenshots/screenshot_5.png)
+### Main
+
+![Capturar2](https://user-images.githubusercontent.com/24817323/147275933-bd6fc0f4-3d8f-44bf-b93d-e4c48273b565.PNG)
+
+### Catálogo 
+
+![Capturar3](https://user-images.githubusercontent.com/24817323/147276001-ddc75925-7739-426e-b089-16406d59e836.PNG)
+
+### Catálogo 2
+
+![Capturar4](https://user-images.githubusercontent.com/24817323/147276054-fc71c25c-9f1a-459b-a35b-79355f3da037.PNG)
+
+
+### View do Produto 
+
+
+![Capturar5](https://user-images.githubusercontent.com/24817323/147276135-01917839-b4bd-4eca-86e8-ed7f0baf2570.PNG)
+
+
+### Carousel LogoMarcas 
+
+![Capturar6](https://user-images.githubusercontent.com/24817323/147276327-855be60d-b3cc-4fcc-ac66-765538c021df.PNG)
+
+
+### Footer
+
+![Capturar7](https://user-images.githubusercontent.com/24817323/147276389-d5d5e143-f855-49c2-aec0-c58bf487bbb5.PNG)
+
+
+# Como Rodar o Projeto? 
+
+
+
+
+
+
+
