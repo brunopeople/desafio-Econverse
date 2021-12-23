@@ -1,0 +1,31 @@
+.endPageInfos {
+  height: 44px;
+  padding-inline: 137px;
+  padding-block: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap:225px;
+
+  .enterpriseInfos {
+    width: 503px;
+    span {
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  .partnersLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../../../variables.scss';
+
+.wrapperModal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wrapperModal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  inset-inline-start: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  transition: opacity 0.3s linear;
+  align-content: center;
+
+  .modalBackground {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}

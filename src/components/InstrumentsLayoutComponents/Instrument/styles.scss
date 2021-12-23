@@ -1,0 +1,26 @@
+@import '../../../../variables.scss';
+
+.instrument {
+  display: flex;
+  flex-direction: column;
+  max-width: 106px;
+  gap: 21px;
+  align-items: center;
+  justify-self: center;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+
+  &:hover {
+    transform: scale(1.05)
+  }
+
+  .instrumentName {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,94 @@
+@import '../../../../variables.scss';
+
+.newItem {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  position: relative;
+  margin: 0;
+
+  .cardImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+}
+
+.cardText {
+  position: absolute;
+  inset-inline-start: 157px;
+  inset-block-start: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .news, .firstLine, .secondLine {
+    text-align: left;
+    font-style: normal;
+    color: $primary-color;
+  }
+
+  .news {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0.4em;
+  }
+  hr {
+    color: $primary-color;
+    width: 18px;
+    margin: 11px;
+  }
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    .firstLine {
+      font-size: 41px;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: 0.09em;
+
+    }
+    .secondLine {
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 40px;
+      letter-spacing: 0.12em;
+    }
+  }
+  .checkButton {
+    width: 154px;
+    height: 52px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: $primary-color;
+      p {
+        color: $secondary-color;
+      }
+    }
+    
+    p {
+      color: $primary-color;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      transition: color 0.5s ease-in-out;
+    }
+  }
+}

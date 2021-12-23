@@ -1,0 +1,44 @@
+@import '../../../../variables.scss';
+
+.wrapperBestBrands {
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+  margin-top: 100px;
+
+  .bestBrandsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    color: $secondary-color;
+
+    span {
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0.1em;
+      text-align: left;
+
+      strong {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-align: left;
+      }
+    }
+
+    .descriptionBestBrands {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  }
+}

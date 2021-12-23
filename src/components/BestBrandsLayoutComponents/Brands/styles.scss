@@ -1,0 +1,12 @@
+.brands {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: relative;
+
+  .arrow {
+    cursor: pointer;
+  }
+}

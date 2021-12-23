@@ -1,0 +1,42 @@
+@import '../../../../variables.scss';
+
+.paymentSecurityBadges {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+
+  position: relative;
+  gap: 24px;
+
+  .payment, .security {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $primary-color;
+  }
+
+  .badgesPayment, .badgesSecurity{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+    justify-content: left;
+    gap: 7px;
+  }
+
+  .badgesPayment  {
+    max-width: 107px;
+    flex-wrap: wrap;
+  }
+}

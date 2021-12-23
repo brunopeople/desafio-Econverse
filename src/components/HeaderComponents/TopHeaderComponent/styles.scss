@@ -1,20 +1,21 @@
+
 .topHeaderComponent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-block: 15px;
-    column-gap: 14px;
-    width: 261px;
-    height: 100%;
-  
-    span {
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 10px;
-      letter-spacing: 0.05em;
-      text-align: left;
-      cursor: pointer;
-    }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-block: 15px;
+  column-gap: 14px;
+  width: 261px;
+  height: 100%;
+
+  span {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    cursor: pointer;
   }
+}
