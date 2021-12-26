@@ -71,6 +71,33 @@ ele irá instalar node-sass no projeto, se ainda o dê algum erro digite o segui
 https://61c4b4ad5caa39113e45c0db--wizardly-perlman-cd3104.netlify.app/
 
 
+# Instalando o Grunt
+
+Neste Projeto foi utilizando o Grunt como automação do Javascript, para poder instalar ele localmente execute este comando no seu prompt do Node.js 
+
+* <p>npm install -g grunt-cli</p> 
+
+adicione este plugins no seu arquivo package.json 
+
+"devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "latest",
+    "grunt-postcss": "latest",
+    "autoprefixer": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest"
+    
+   e execute o comando:
+   
+   * <p>npm install --save-dev grunt-postcss</p>
+   * <p>npm install --save-dev grunt-contrib-cssmin</p>
+   * <p>npm install --save-dev grunt-contrib-uglify</p>
+   * <p>npm install --save-dev grunt-contrib-watch</p>
+   
+   
+   Portanto, para finalizar e executar as tarefas execute o comando Grunt no  prompt e irá executar as tarefas. 
+
 
 
 
